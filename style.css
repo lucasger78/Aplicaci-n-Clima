@@ -1,0 +1,55 @@
+body{
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    background-color: black;
+    margin: 0;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;    
+    position: relative; 
+    background: linear-gradient(245.59deg, #7040f3 0%, #2f1479 25%, #09021a 75%  );
+    padding-top: 5% ;
+    
+}
+
+.container{
+    max-width: 30%;
+    height: auto;    
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: #7145eb dotted 1px;
+    box-shadow: 4px 4px 4px fuchsia;
+}
+
+h1{    
+    color: whitesmoke;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 15px;
+    width: 70%;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(221, 54, 54);
+    color: whitesmoke;
+    border: dotted 1px #6b38f7;
+    cursor:pointer;
+}
+
+#responseData{
+    margin-top: 20px;
+    font-size: 18px;
+    color: whitesmoke;
+    border: #7145eb dotted 1px;
+    box-shadow: 1px 1px 4px fuchsia;
+    height: auto;
+
+}
